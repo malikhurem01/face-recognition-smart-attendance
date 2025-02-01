@@ -1,0 +1,7 @@
+Flask
+flask-cors
+pymongo
+deepface
+opencv-python
+numpy
+Pillow
