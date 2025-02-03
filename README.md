@@ -37,7 +37,7 @@ This project is a face recognition attendance system. It detects and recognizes 
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.12+
 - MongoDB (Atlas or a local installation)
 
 ### Python Packages
@@ -59,8 +59,8 @@ You can install the required packages using pip (see [Installation](#installatio
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/smart-attendance-system.git
-   cd smart-attendance-system
+   git clone https://github.com/malikhurem01/smart-attendance-system.git
+   cd face-recognition-smart-attendance
    ```
 
 2. **Create and activate a virtual environment:**
@@ -118,7 +118,7 @@ You can install the required packages using pip (see [Installation](#installatio
 To start the Flask server, run:
 
 ```bash
-python app.py
+python main.py
 ```
 
 By default, the application runs in debug mode on [http://127.0.0.1:5000](http://127.0.0.1:5000). **Note:** Disable debug mode in production.
@@ -209,7 +209,7 @@ Contributions are welcome! If you have any suggestions, bug fixes, or improvemen
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
