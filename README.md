@@ -59,7 +59,7 @@ You can install the required packages using pip (see [Installation](#installatio
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/malikhurem01/smart-attendance-system.git
+   git clone https://github.com/malikhurem01/face-recognition-smart-attendance.git
    cd face-recognition-smart-attendance
    ```
 
