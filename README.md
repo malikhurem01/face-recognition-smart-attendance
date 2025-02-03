@@ -105,7 +105,7 @@ You can install the required packages using pip (see [Installation](#installatio
 .
 ├── app.py                  # Main Flask application with all endpoints
 ├── README.md               # Project documentation
-├── requirements.txt        # List of Python dependencies (if provided)
+├── requirements.txt        # List of Python dependencies
 └── database
     ├── users               # Directory to store images of known faces
     └── vectors             # Directory to store face embeddings (pickle file)
@@ -199,6 +199,7 @@ By default, the application runs in debug mode on [http://127.0.0.1:5000](http:/
 
   - Validate and sanitize all inputs.
   - Disable debug mode in production.
+  - Modify the generate_all_embeddings method to delete photos from database/users directory after securely embedding them in the .pkl file.
 
 - **Error Handling:**\
   Basic error handling is implemented. You might need to extend this to cover more edge cases and improve the robustness of the application.
