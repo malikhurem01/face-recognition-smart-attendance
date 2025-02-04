@@ -33,7 +33,6 @@ This project is a face recognition attendance system. It detects and recognizes 
 - **Attendance Management:** Create venues and update attendance records automatically.
 - **Add Faces:** Upload new images to add faces to the known faces database.
 - **Data Persistence:** Store venue and attendance data using MongoDB.
-- **Cross-Origin Resource Sharing (CORS):** Allows the API to be accessed from different domains.
 
 ## Requirements
 
